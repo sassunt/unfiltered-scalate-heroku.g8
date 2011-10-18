@@ -1,2 +1,1 @@
-<%@ var name: String %>
-<h1>${name}, Welcome to Heroku!!!</h1>
+<h1>Scalaist, Welcome to Heroku!!!</h1>

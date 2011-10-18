@@ -8,7 +8,7 @@ import util.Properties
 class App extends unfiltered.filter.Plan {
 
   def intent = {
-    case req => Ok ~> Scalate(req, "index.ssp", ("name", "Scalaist"))
+    case req => Ok ~> Scalate(req, "index.ssp")
   }
 }
 
